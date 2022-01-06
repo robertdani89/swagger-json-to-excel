@@ -1,0 +1,19 @@
+{
+  "name": "swaggertoexcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "swaggerToExcel.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "lint": "eslint src/*",
+    "lint-fix": "eslint --fix src/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "excel4node": "^1.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0"
+  }
+}
